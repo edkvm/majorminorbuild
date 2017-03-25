@@ -1,0 +1,8 @@
+# Site settings
+baseurl = "http://majorminorbuild.com/"
+languageCode = "en-US"
+title = "MajorMinorBuild"
+theme = "hugo-theme-cactus-plus"
+
+[params]
+    bio = "Docker overview from introduction to implementation"
