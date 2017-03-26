@@ -7,4 +7,5 @@ statsshow: false
 
 ### A Prototype, A Test
 
-This site is built .
+This site was built during a course I took, Design: Creation of Artifacts in Society.
+I wanted to explore a new way of bringing content to software developers.
