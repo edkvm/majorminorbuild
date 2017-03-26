@@ -5,4 +5,11 @@ title = "MajorMinorBuild"
 theme = "hugo-theme-cactus-plus"
 
 [params]
-    bio = "Docker overview from introduction to implementation"
+    name = "MajorMinorBuild"
+    title = "Docker Overview"
+    bio = "From introduction to implementation"
+    iconFont = "font-awesome"
+[social]
+  twitter-square = "https://twitter.com/ekiselman"
+  github-square = "https://github.com/ekiselman"
+
