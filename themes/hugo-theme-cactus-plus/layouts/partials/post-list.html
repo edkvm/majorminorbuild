@@ -1,0 +1,17 @@
+<ul id="post-list">
+    {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }} {{ $url := replace .Permalink .Site.BaseURL "" }} {{ if ne $url "about/" }}
+    <li>
+        <a href='{{ .Params.linkexternal }}' target='{{ if .Params.linkexternal}}_blank{{ end }}' rel='noopener'>
+            
+            {{ .Title }}
+            <span class="">
+                · {{ .Params.author }}
+            </span>
+            <h2>{{ .Description | markdownify }}<span class="">
+                · {{ .Params.readtime }} minutes read
+            </span> </h2>
+               
+        </a>
+    </li>
+    {{ end }} {{ end }}
+</ul>
